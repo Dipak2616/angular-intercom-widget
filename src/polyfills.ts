@@ -47,7 +47,13 @@
  */
 import 'zone.js';  // Included with Angular CLI.
 
-
+declare global {
+    interface Window {
+        intercomSettings:any,
+        Intercom:(a:string,b?:any)=>void
+    }
+  }
+  
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */

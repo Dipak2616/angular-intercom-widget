@@ -1,0 +1,77 @@
+.header{
+    background: #3b17f7;
+    height: 80px;
+    color: #FFFFFF;
+   box-shadow: 0 0 4px 2px rgb(0 0 0 / 30%);
+}
+.header .container{
+    /* width: calc(100% - 20px); */
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.header .container .banner{
+    height: 40px;
+    position: absolute;
+    top: 18px;
+    cursor: pointer;
+}
+/* body{
+    background: url("../assets/img/patternslarge.png");
+} */
+.body .container{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* width: 200px; */
+    align-content: space-around;
+    align-items: center;
+}
+.button-group{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 500px;
+}
+
+button{
+    width: 200px;
+    height: 31px;
+    background: transparent;
+    border: 1px solid green;
+    background: transparent;
+    border-radius: 5px;
+    border:1px solid grey;
+    cursor: pointer;
+    color: #ffffff;
+}
+button:hover {
+   opacity: .9; 
+}
+.boot{
+background-color:green;
+}
+.shutdown{
+    background-color:red
+}
+.update{
+    background-color:#3b17f7
+}
+.show{
+    background-color:#cf1ab0
+}
+.hide{
+    background-color:grey
+}
+.MIW-status{
+    font-size: 24px;
+}
+.label{
+    font-size: 18px;
+    color: #3b17f7;
+}
